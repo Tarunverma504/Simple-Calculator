@@ -14,6 +14,7 @@ function num(a){
 	else if(a=="bsp"){
 		if(b.length==1){
 			document.getElementById('output-value').innerHTML='0';
+			b=0;
 		}
 		else{
 			b=b.toString();
