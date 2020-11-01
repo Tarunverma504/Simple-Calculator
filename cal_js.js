@@ -1,5 +1,21 @@
 let b='';
 let x=0;
+function fun(w)
+{
+	console.log(w);
+	if(w=='light')
+	{
+		document.head.children[4].href="cal_css.css";
+		document.getElementById("mode").style.color="black";
+		document.getElementById("mode").style.backgroundColor="white";
+	}
+	else if(w=='dark')
+	{
+		document.head.children[4].href="cal2_css.css";
+		document.getElementById("mode").style.color="white";
+		document.getElementById("mode").style.backgroundColor="black";
+	}
+}
 function num(a){
 	if(a=='='){
 		console.log("b="+b);
